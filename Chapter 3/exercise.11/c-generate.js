@@ -20,7 +20,7 @@ function convertPluralForm(str = '') {
 
 const lines = readLines();
 
-const valueName = lines[0];
+const valueName = lines[0].toLowerCase();
 const pluralFormedValueName = convertPluralForm(valueName);
 const bigValueName = valueName.toUpperCase();
 
